@@ -1,0 +1,42 @@
+.hero {
+    &__box {
+        position: absolute;
+        bottom: 35%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    &__head{
+        justify-content: space-between;
+        align-items: center;
+        max-width: 525px;
+        width: 100%;
+        margin: 0 auto 75px;
+        text-align: right;
+    }
+    &__photo {
+        position: relative;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    &__descr{
+        max-width: 300px;
+        line-height: 1.25;
+    }
+
+    &__title {
+        margin-bottom: 25px;
+        text-shadow: 2px 2px 4px pink;
+        font-size: 48px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    &__text {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
