@@ -19,7 +19,6 @@ new Typewriter('#hero__title', {
 });
 
 var mySwiper = new Swiper('.swiper-container', {
-    slidesPerView: 3,
     spaceBetween: 30,
     centeredSlides: true,
     loop: true,
@@ -27,4 +26,12 @@ var mySwiper = new Swiper('.swiper-container', {
     coverflowEffect: {
         rotate: 35
       },
+    breakpoints: {
+        320: {
+            slidesPerView: 'auto'
+        },
+        767: {
+            slidesPerView: 3
+        }
+    }
 });

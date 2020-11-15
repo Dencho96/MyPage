@@ -7,9 +7,11 @@
         transform: translateY(50%);
         justify-content: space-between;
         align-items: center;
+        padding: 0 15px;
     }
 
     &__title {
+        margin-right: 35px;
         font-size: 85px;
         font-weight: 700;
         text-shadow: 2px 2px #2c72ff;
