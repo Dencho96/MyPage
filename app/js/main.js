@@ -13,7 +13,7 @@ $(document).ready(function() {
 });
 
 new Typewriter('#hero__title', {
-    strings: 'Welcome to my page !',
+    strings: 'Добро пожаловать !',
     autoStart: true,
     delay: 'natural'
 });

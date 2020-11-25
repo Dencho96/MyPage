@@ -76,7 +76,7 @@
     }
 
     &__name{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         text-align: center;
     }
@@ -95,6 +95,14 @@
             background-color: white;
             color: black;
         }
+    }
+
+    &__status{
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+        font-size: 18px;
+        color: #80b918;
     }
 
     &__title {
